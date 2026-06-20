@@ -19,4 +19,12 @@
     "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
     "download_detour": "proxy"
   }
+  {
+  "rules": [
+    {
+      "domain": ["iso.pitc.co.ir"],
+      "outbound": "direct"
+    }
+  ]
+}
 ]
